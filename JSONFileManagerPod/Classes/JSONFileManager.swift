@@ -14,7 +14,7 @@ public struct JSONFileManager: Managable {
         case errorReading
     }
 
-    init<E, D>(
+    public init<E, D>(
         filePath: String,
         fileName: String,
         toFileName: String,
