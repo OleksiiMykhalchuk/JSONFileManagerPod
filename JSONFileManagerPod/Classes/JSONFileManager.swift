@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct JSONFileManager: Managable {
+public struct JSONFileManager: Managable {
 
     private let url: URL
     enum ErrorData: Error, LocalizedError {
