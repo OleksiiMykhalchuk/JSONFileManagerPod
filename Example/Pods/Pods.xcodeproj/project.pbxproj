@@ -8,11 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		3C4B4ED999027DC1914E7E778BC1FE37 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1430F003D39D9906881A6AC724B7931 /* Cocoa.framework */; };
+		8895D92728C799640092D461 /* Managable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8895D92528C799640092D461 /* Managable.swift */; };
+		8895D92828C799640092D461 /* JSONFileManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8895D92628C799640092D461 /* JSONFileManager.swift */; };
 		8E41D38097C45D04A6893788123E2887 /* JSONFileManagerPod-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B7570BD1689083AB38213ECF1107013B /* JSONFileManagerPod-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A56A53DE801B431026E6506513A93C8D /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1430F003D39D9906881A6AC724B7931 /* Cocoa.framework */; };
 		B0F2BA78E8633B8B71BA3D14734FE73A /* Pods-JSONFileManagerPod_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A1E4D9796B3EAEAF18497E3713874D0 /* Pods-JSONFileManagerPod_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D168E70A06C4EA45A44E328F7449F0FB /* JSONFileManagerPod-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AA74F730F74A084506868E8ACDAB142F /* JSONFileManagerPod-dummy.m */; };
-		D5BFFEEB0EA90A1B530E1BA946625DD2 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0881BFD49ABB95EFCBE4AAE0E302A7E4 /* ReplaceMe.swift */; };
 		FAEBE5986A2E60205589D8AA9D754267 /* Pods-JSONFileManagerPod_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CBE8DD4A5ED91C051B3FE3C0A5D3D1E /* Pods-JSONFileManagerPod_Tests-dummy.m */; };
 /* End PBXBuildFile section */
 
@@ -27,28 +28,29 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0881BFD49ABB95EFCBE4AAE0E302A7E4 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = JSONFileManagerPod/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
 		0A1E4D9796B3EAEAF18497E3713874D0 /* Pods-JSONFileManagerPod_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JSONFileManagerPod_Tests-umbrella.h"; sourceTree = "<group>"; };
 		12B9BCAF726CDA2D2333660444A420D5 /* Pods-JSONFileManagerPod_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JSONFileManagerPod_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		15D0EA2C9F1824C8FCE0E92996A98638 /* JSONFileManagerPod-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JSONFileManagerPod-prefix.pch"; sourceTree = "<group>"; };
 		188F565D1A4EBA81D8385B805E447530 /* Pods-JSONFileManagerPod_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-JSONFileManagerPod_Tests"; path = Pods_JSONFileManagerPod_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2CBE8DD4A5ED91C051B3FE3C0A5D3D1E /* Pods-JSONFileManagerPod_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JSONFileManagerPod_Tests-dummy.m"; sourceTree = "<group>"; };
 		35ED27306FF1E9D89F1B8482B6CDF366 /* JSONFileManagerPod */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = JSONFileManagerPod; path = JSONFileManagerPod.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		3665DF1B2257F411EB69EB3B5B680A15 /* JSONFileManagerPod.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = JSONFileManagerPod.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		3665DF1B2257F411EB69EB3B5B680A15 /* JSONFileManagerPod.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = JSONFileManagerPod.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		3C5AF3C7B71DACE2E826AC26AA218F9A /* JSONFileManagerPod.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = JSONFileManagerPod.modulemap; sourceTree = "<group>"; };
 		502F93891DC1894C35DE0268109B7431 /* JSONFileManagerPod.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JSONFileManagerPod.debug.xcconfig; sourceTree = "<group>"; };
+		8895D92528C799640092D461 /* Managable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Managable.swift; path = JSONFileManagerPod/Classes/Managable.swift; sourceTree = "<group>"; };
+		8895D92628C799640092D461 /* JSONFileManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = JSONFileManager.swift; path = JSONFileManagerPod/Classes/JSONFileManager.swift; sourceTree = "<group>"; };
 		8B039722B4BF966418BD6D6760B1009B /* Pods-JSONFileManagerPod_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JSONFileManagerPod_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		AA74F730F74A084506868E8ACDAB142F /* JSONFileManagerPod-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JSONFileManagerPod-dummy.m"; sourceTree = "<group>"; };
 		B7570BD1689083AB38213ECF1107013B /* JSONFileManagerPod-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JSONFileManagerPod-umbrella.h"; sourceTree = "<group>"; };
 		B98C5039AB3BFE50050CF272DA603397 /* Pods-JSONFileManagerPod_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-JSONFileManagerPod_Tests.modulemap"; sourceTree = "<group>"; };
 		C1430F003D39D9906881A6AC724B7931 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/Cocoa.framework; sourceTree = DEVELOPER_DIR; };
 		C45C75E642A3ABD36134103892A07AA2 /* JSONFileManagerPod.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JSONFileManagerPod.release.xcconfig; sourceTree = "<group>"; };
-		C8D46F79BA1295EEEA34D0732E08AFC2 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		C8D46F79BA1295EEEA34D0732E08AFC2 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		CA8BA72D9198C8C0DF3F930C76111C4C /* JSONFileManagerPod-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "JSONFileManagerPod-Info.plist"; sourceTree = "<group>"; };
 		CC6200683B2838367DB08F9682446441 /* Pods-JSONFileManagerPod_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JSONFileManagerPod_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		D0ED66F0BFE9FFEDD8BC03474B51FC01 /* Pods-JSONFileManagerPod_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JSONFileManagerPod_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		DD964861C996CD07A2E36AFEADA9E0BF /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		DD964861C996CD07A2E36AFEADA9E0BF /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		E366618B43EB092C629BD8E976FEDDCE /* Pods-JSONFileManagerPod_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JSONFileManagerPod_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		F1FD88A56DFE28B16729462BD754DD1B /* Pods-JSONFileManagerPod_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JSONFileManagerPod_Tests-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -118,7 +120,8 @@
 		C61B4273D209E479B0B17098F515FB79 /* JSONFileManagerPod */ = {
 			isa = PBXGroup;
 			children = (
-				0881BFD49ABB95EFCBE4AAE0E302A7E4 /* ReplaceMe.swift */,
+				8895D92628C799640092D461 /* JSONFileManager.swift */,
+				8895D92528C799640092D461 /* Managable.swift */,
 				0FD0715285A481C960E09DA977CA8050 /* Pod */,
 				44A131AD123AD84C6C4D06E35CB8F118 /* Support Files */,
 			);
@@ -288,7 +291,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				D168E70A06C4EA45A44E328F7449F0FB /* JSONFileManagerPod-dummy.m in Sources */,
-				D5BFFEEB0EA90A1B530E1BA946625DD2 /* ReplaceMe.swift in Sources */,
+				8895D92828C799640092D461 /* JSONFileManager.swift in Sources */,
+				8895D92728C799640092D461 /* Managable.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -531,8 +535,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};

@@ -26,7 +26,7 @@ Class JSONFileManager has been created to change JSON file from one Data Model t
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Oleksii Mykhalchuk' => 'ale.m100888@gmail.com' }
-  s.source           = { :git => 'https://github.com/Oleksii Mykhalchuk/JSONFileManagerPod.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/OleksiiMykhalchuk/JSONFileManagerPod.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.platform = :osx
