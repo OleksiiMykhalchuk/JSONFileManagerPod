@@ -1,0 +1,6 @@
+use_frameworks!
+target 'JSONFileManagerPod_Tests' do
+  pod 'JSONFileManagerPod', :path => '../'
+  
+  
+end
