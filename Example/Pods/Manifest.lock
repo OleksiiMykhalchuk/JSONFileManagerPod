@@ -1,0 +1,16 @@
+PODS:
+  - JSONFileManagerPod (0.1.0)
+
+DEPENDENCIES:
+  - JSONFileManagerPod (from `../`)
+
+EXTERNAL SOURCES:
+  JSONFileManagerPod:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  JSONFileManagerPod: 76aa4ac846cfbab123fbb179045f2ac03338bc7a
+
+PODFILE CHECKSUM: 903cd73c14900b7cd1b1f21d58e5bc3be36b3062
+
+COCOAPODS: 1.11.3

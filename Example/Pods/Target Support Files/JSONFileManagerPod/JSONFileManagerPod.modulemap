@@ -1,0 +1,6 @@
+framework module JSONFileManagerPod {
+  umbrella header "JSONFileManagerPod-umbrella.h"
+
+  export *
+  module * { export * }
+}
